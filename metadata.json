@@ -1,6 +1,6 @@
 {
   "name": "puppet-unattended_upgrades",
-  "version": "2.1.0",
+  "version": "2.2.1-bc0",
   "author": "Vox Pupuli",
   "summary": "Provides an interface for managing Apt unattended_upgrades with Puppet",
   "license": "Apache-2.0",
@@ -12,7 +12,9 @@
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
         "6",
-        "7"
+        "7",
+        "8",
+        "9"
       ]
     },
     {
@@ -20,7 +22,10 @@
       "operatingsystemrelease": [
         "10.04",
         "12.04",
-        "14.04"
+        "14.04",
+        "16.04",
+        "16.10",
+        "17.04"
       ]
     }
   ],
